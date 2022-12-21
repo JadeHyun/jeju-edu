@@ -60,7 +60,7 @@ export function DetailTitlebar() {
   return (
     <TitlebarContainer detail={true} bg={bg} none={none}>
       <div className="backbtn" onClick={() => navigate(-1)}>
-        <img src={backbtn} alt="뒤로가기" width="24px" height="24px" />
+        <img src={backbtn} alt="뒤로가기" height="24px" />
       </div>
       <div className="title">{title}</div>
     </TitlebarContainer>
