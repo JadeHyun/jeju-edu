@@ -25,16 +25,16 @@ export const RouterConfig = [
     path: "/home",
     element: <Main />,
     sceneConfig: {
-      enter: "from-fade",
-      exit: "to-fade",
+      enter: "from-left",
+      exit: "to-left",
     },
   },
   {
     path: "/profile",
     element: <Profile />,
     sceneConfig: {
-      enter: "from-fade",
-      exit: "to-fade",
+      enter: "from-right",
+      exit: "to-right",
     },
   },
   {

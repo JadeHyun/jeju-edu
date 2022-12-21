@@ -68,7 +68,7 @@ function App() {
       className={"router-wrapper"}
       childFactory={(child) => React.cloneElement(child, { classNames })}
     >
-      <CSSTransition timeout={150} key={location.pathname}>
+      <CSSTransition timeout={300} key={location.pathname}>
         <Suspense fallback={<LoadingSpinner />}>
           <Routes location={location}>
             {RouterConfig.map((config, index) => {
